@@ -8,6 +8,9 @@ SOURCES:
 
 - building a machine learning model to detect sentiment (i.e. detect if a sentence is positive or negative) using PyTorch and TorchText. This will be done on movie reviews, using the IMDb dataset (http://ai.stanford.edu/~amaas/data/sentiment/).
 
+1-Download Data
+2- Preparing Data (Tokenize Data)
+3- Use RNN
 
 -In pytorch website, go to Doc section, in search box , type rnn, you will see RNN-cell, LSTM cel, GRU cell,etc. The way, you need define RNN and each cell were described.
 https://pytorch.org/docs/stable/generated/torch.nn.RNN.html?highlight=rnn#torch.nn.RNN
