@@ -6,7 +6,7 @@ SOURCES:
 
 -use repository from https://github.com/bentrevett/pytorch-sentiment-analysis  and open simple sentiment analysis in google colab
 
-- building a machine learning model to detect sentiment (i.e. detect if a sentence is positive or negative) using PyTorch and TorchText. This will be done on movie reviews, using the IMDb dataset.
+- building a machine learning model to detect sentiment (i.e. detect if a sentence is positive or negative) using PyTorch and TorchText. This will be done on movie reviews, using the IMDb dataset (http://ai.stanford.edu/~amaas/data/sentiment/).
 
 
 -In pytorch website, go to Doc section, in search box , type rnn, you will see RNN-cell, LSTM cel, GRU cell,etc. The way, you need define RNN and each cell were described.
