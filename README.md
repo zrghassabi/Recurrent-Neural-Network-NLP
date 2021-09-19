@@ -1,6 +1,6 @@
 # Recurrent-Neural-Network-Natural Language Processing
 
-sources
+SOURCES:
 
 -Use torch text from https://pytorch.org/text/stable/index.html  
 
