@@ -1,4 +1,6 @@
-# Recurrent-Neural-Network-NLP
+# Recurrent-Neural-Network-Natural Language Processing
+
+Use torch text from https://pytorch.org/text/stable/index.html  or 
 
 In pytorch website, go to Doc section, in search box , type rnn, you will see RNN-cell, LSTM cel, GRU cell,etc. The way, you need define RNN and each cell were described.
 https://pytorch.org/docs/stable/generated/torch.nn.RNN.html?highlight=rnn#torch.nn.RNN
