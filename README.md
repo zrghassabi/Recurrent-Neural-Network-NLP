@@ -60,7 +60,11 @@ https://colah.github.io/posts/2015-08-Understanding-LSTMs/
 
 -using convolutional setiment analysis
 
+https://github.com/bentrevett/pytorch-sentiment-analysis/blob/master/4%20-%20Convolutional%20Sentiment%20Analysis.ipynb
+
 - multiclass sentiment analysis
+
+https://github.com/bentrevett/pytorch-sentiment-analysis/blob/master/5%20-%20Multi-class%20Sentiment%20Analysis.ipynb
 
 were updated.
 
