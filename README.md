@@ -1,5 +1,10 @@
 # Recurrent-Neural-Network-Natural Language Processing
 
+
+simple sentiment analysis:
+
+-----------------------------
+
 SOURCES:
 
 -Use torch text from https://pytorch.org/text/stable/index.html  
@@ -35,3 +40,24 @@ https://pytorch.org/docs/stable/generated/torch.nn.RNN.html?highlight=rnn#torch.
 
 
 The accuracy of this NN is around 47%. We need to improve network.  Follow next steps.
+
+
+simple sentiment analysis upgrade:
+
+-----------------------------
+
+Since accuracy of previous model was very low. so we will go on with
+
+https://github.com/bentrevett/pytorch-sentiment-analysis/blob/master/2%20-%20Upgraded%20Sentiment%20Analysis.ipynb
+
+you will see GloVe
+https://nlp.stanford.edu/projects/glove/
+
+which is unsupervised training method to get vector represenattion for words. This gives embedding layer a good initialization as it does not have to learn these relations from scratch
+
+-using a different RNN architecture called a Long Short-Term Memory (LSTM)
+https://colah.github.io/posts/2015-08-Understanding-LSTMs/
+
+
+
+
