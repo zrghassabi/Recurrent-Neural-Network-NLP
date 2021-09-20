@@ -19,10 +19,12 @@ SOURCES:
   
   Before using RNN, Embedding was used to transform One-hot vector to a dense vector. dense vector is input of RNN. Embedding reduces dimention of one-hot vector. Acually, some words are synonym. so, a fully conection NN is used to reduce size and map sysnonym words to the same value.
   
-  Each sentence has M words and each word has D embedding dim. assume batchsize e.x. 64. So we have a batch of 64 + or - which each sentence has length 100 and each word has embedding in size of D. We have 100 RNN. X1 is a embedding vector of a word.
+  Each sentence has M words and each word has D embedding dim. assume batchsize e.x. 64. So we have a batch of 64 + or - which each sentence has length 100 and each word has embedding in size of D. We have 100 blocks. X1 is a embedding vector of a word.
+If size of sentences are not same, sentences with smaller size will be padding.
 
-If size of sentences are not same. So sentences with smaller size will be padding.
+BTW, we do not need to build blocks of RNN or input word by word. We will input sentences to RNN. 
 
+RNN are fully connected networks. 
 
   For RNN:
 
