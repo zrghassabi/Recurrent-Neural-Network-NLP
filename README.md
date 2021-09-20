@@ -58,6 +58,12 @@ which is unsupervised training method to get vector represenattion for words. Th
 -using a different RNN architecture called a Long Short-Term Memory (LSTM)
 https://colah.github.io/posts/2015-08-Understanding-LSTMs/
 
+-using convolutional setiment analysis
+
+- multiclass sentiment analysis
+
+were updated.
+
 
 
 
