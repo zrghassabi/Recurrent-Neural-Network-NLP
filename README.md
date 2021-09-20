@@ -16,6 +16,10 @@ SOURCES:
      
 
 3- Use RNN
+  
+  Embedding was used to transform One-hot vector to a dense vector. dense vector is input of RNN.
+  
+  For RNN:
 
 -In pytorch website, go to Doc section, in search box , type rnn, you will see RNN-cell, LSTM cel, GRU cell,etc. The way, you need define RNN and each cell were described.
 https://pytorch.org/docs/stable/generated/torch.nn.RNN.html?highlight=rnn#torch.nn.RNN
