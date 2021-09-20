@@ -1,4 +1,4 @@
-# Recurrent-Neural-Network-Natural Language Processing
+# Recurrent-Neural-Network-Natural Language Processing (sentiment analysis)
 
 
 simple sentiment analysis:
