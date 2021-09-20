@@ -17,7 +17,7 @@ SOURCES:
 
 3- Use RNN
   
-  Embedding was used to transform One-hot vector to a dense vector. dense vector is input of RNN. Embedding reduces dimention of one-hot vector.
+  Embedding was used to transform One-hot vector to a dense vector. dense vector is input of RNN. Embedding reduces dimention of one-hot vector. Acually, some words are synonym. so, a fully conection NN is used to reduce size and map sysnonym words to the same value.
   
   For RNN:
 
