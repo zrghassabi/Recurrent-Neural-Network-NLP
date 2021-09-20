@@ -66,7 +66,7 @@ https://github.com/bentrevett/pytorch-sentiment-analysis/blob/master/4%20-%20Con
 
 https://github.com/bentrevett/pytorch-sentiment-analysis/blob/master/5%20-%20Multi-class%20Sentiment%20Analysis.ipynb
 
-were updated.
+were uploaded.
 
 
 
