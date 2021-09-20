@@ -24,7 +24,7 @@ If size of sentences are not same, sentences with smaller size will be padding.
 
 BTW, we do not need to build blocks of RNN or input word by word. We will input sentences to RNN. 
 
-RNN are fully connected networks. 
+RNN are fully connected networks. Assume you have 500 hidden neuron. so,  64 *500 is input for each block and if sentence lenght is 100, so 64*500*100
 
   For RNN:
 
