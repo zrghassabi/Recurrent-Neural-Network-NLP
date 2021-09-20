@@ -68,6 +68,12 @@ https://github.com/bentrevett/pytorch-sentiment-analysis/blob/master/5%20-%20Mul
 
 were uploaded.
 
+Now, you can use 
+
+https://github.com/bentrevett/pytorch-sentiment-analysis/blob/master/A%20-%20Using%20TorchText%20with%20Your%20Own%20Datasets.ipynb
+
+for your own dataset.
+
 
 
 
