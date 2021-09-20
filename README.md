@@ -34,4 +34,4 @@ https://pytorch.org/docs/stable/generated/torch.nn.RNN.html?highlight=rnn#torch.
 -In all recurrent NN, you work with a sequence (e.x. a sentence of words). Each word is a vector of size n. You will have input and hidden state and output in each RNN.
 
 
-The accuracy of this NN is around 47%. We need to improve network. 
+The accuracy of this NN is around 47%. We need to improve network.  Follow next steps.
