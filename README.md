@@ -10,7 +10,7 @@ SOURCES:
 
 1-Download Data
 
-2- Preparing Data (Tokenize Data using https://spacy.io/) , use Dat.field and split data to train and test and split train data to train and validation. For each word, you will have index and one-hot vector.
+2- Prepairing Data (Tokenize Data using https://spacy.io/) , use Dat.field and split data to train and test and split train data to train and validation. For each word, you will have index and one-hot vector.
 
      Note: you have more than 100K unique words in the dataset. 100K*n (a vector for each word), this will results in large training time. So, select the most used 25K Words and if a word in sentence was not in dictionary of 25K, tag it as UN or unknown. To build 25K dictionary, use text.build.vocab.
      
