@@ -15,17 +15,17 @@ SOURCES:
 
 1-Download Data
 
-2- Prepairing Data (Tokenize Data using https://spacy.io/) , use Dat.field and split data to train and test and split train data to train and validation. For each word, you will have index and one-hot vector.
+2- Prepairing Data (Tokenize Data using https://spacy.io/) , use Data.field and split data into train and test sets and split train data into train and validation sets. For each word, you will have index and one-hot vector.
 
      Note: you have more than 100K unique words in the dataset. 100K*n (a vector for each word), this will results in large training time. So, select the most used 25K Words and if a word in sentence was not in dictionary of 25K, tag it as UN or unknown. To build 25K dictionary, use text.build.vocab.
      
 
 3- Use RNN
   
-  Before using RNN, Embedding was used to transform One-hot vector to a dense vector. dense vector is input of RNN. Embedding reduces dimention of one-hot vector. Acually, some words are synonym. so, a fully conection NN is used to reduce size and map sysnonym words to the same value.
+  Before using RNN, Embedding was used to transform One-hot vector to a dense vector. dense vector is input of RNN. Embedding reduces dimention of one-hot vector. Acually, some words are synonym. so, a fully conection NN is used to reduce size and map synonym words to the same value.
   
   Each sentence has M words and each word has D embedding dim. assume batchsize e.x. 64. So we have a batch of 64 + or - which each sentence has length 100 and each word has embedding in size of D. We have 100 blocks. X1 is a embedding vector of a word.
-If size of sentences are not same, sentences with smaller size will be padding.
+If size of sentences are not same, sentences with smaller size will be padded.
 
 BTW, we do not need to build blocks of RNN or input word by word. We will input sentences to RNN. 
 
@@ -62,6 +62,9 @@ https://colah.github.io/posts/2015-08-Understanding-LSTMs/
 
 https://github.com/bentrevett/pytorch-sentiment-analysis/blob/master/4%20-%20Convolutional%20Sentiment%20Analysis.ipynb
 
+each sentence was tokenize and each token has one embedding vector. with embedding vectors, we produce a 2D matrix and using 100 filters on the matrix, pooling , FC , etc. At last part we have drop-out because we do not want all weights to be updated.
+
+
 -multiclass sentiment analysis
 
 https://github.com/bentrevett/pytorch-sentiment-analysis/blob/master/5%20-%20Multi-class%20Sentiment%20Analysis.ipynb
@@ -72,7 +75,7 @@ Now, you can use
 
 https://github.com/bentrevett/pytorch-sentiment-analysis/blob/master/A%20-%20Using%20TorchText%20with%20Your%20Own%20Datasets.ipynb
 
-for your own dataset.
+to read json dataset. 
 
 
 
